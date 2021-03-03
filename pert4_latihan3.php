@@ -1,6 +1,11 @@
-<?php
-for($i = 1 ;$i< 11 ;$i++) {
-if ($i % 2 == 0 ) continue ;
-else echo$i ;
-}
-?>
+<html>
+<head>
+<title>Penggunaan For</title>
+</head>
+<body>
+<?Php
+ For ($bil = 1; $bil<25; $bil++)
+Print("$bil<br>\n");
+ ?>
+</body>
+</html>

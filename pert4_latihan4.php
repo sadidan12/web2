@@ -1,6 +1,6 @@
 <?php
-$arr=array("senin", "selasa", "rabu");
-foreach ($arr as $hari){
-    echo "Hari: " . $hari . "<br>";
-    }
-    ?>
+for($i = 1 ;$i< 11 ;$i++) {
+if ($i % 2 == 0 ) continue ;
+else echo$i ;
+}
+?>
